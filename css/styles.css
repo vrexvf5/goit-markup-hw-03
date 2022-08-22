@@ -54,6 +54,11 @@ button {
     padding-right: 15px;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Studio */    /* HEADER */
 
 .page-header-container {
@@ -186,11 +191,6 @@ button {
 
 /* FEATURES */
 
-.features {
-    padding-top: 94px;
-    padding-bottom: 100px;
-}
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -233,7 +233,7 @@ button {
 
 .tasks {
     padding-bottom: 94px;
-    
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -256,13 +256,7 @@ button {
 
 /* TEAM */
 
-.team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .team-title {
-    /* padding-top: 94px; */
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -302,6 +296,7 @@ button {
 }
 
 .team-card {
+    border-radius: 0 0 4px 4px;
     background-color: var(--main-background-color);
 }
 
@@ -356,8 +351,6 @@ footer {
 /* Portfolio */
 
 .filter {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: var(--main-background-color);
 }
 
@@ -371,6 +364,7 @@ footer {
 }
 
 .filter-button {
+    padding: 6px 26px;
     border: 0;
     border-radius: 4px;
     font-weight: 500;
@@ -411,8 +405,6 @@ footer {
 }
 
 .project-card {
-    width: 370px;
-    /* flex-basis: calc((100%-60px) / 3); */
-    border: 1px solid #eeeeee;
+    flex-basis: calc((100% - 60px) / 3);
     background-color: var(--main-background-color);
 }
