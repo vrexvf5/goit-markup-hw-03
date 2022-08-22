@@ -406,5 +406,6 @@ footer {
 
 .project-card {
     flex-basis: calc((100% - 60px) / 3);
+    border-bottom: 1px solid #eeeeee;
     background-color: var(--main-background-color);
 }
